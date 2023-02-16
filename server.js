@@ -11,18 +11,6 @@ app.use(express.static('public'));
 
 
 
-//TODO: Create HTML ROUTE: GET /notes should return the notes.html file.
-// Create a route for the notes.html file
-app.get('/notes', (req, res) => {
-    // Send the notes.html file as a response
-    res.sendFile(__dirname + '/public/notes.html');
-  });
-
-
-// Start the server
-// app.listen(port, () => console.log(`Listening on port ${port}`));
-
-
 //TODO: Create HTML ROUTE: GET * should return the index.html file.
 // Create a route for the index.html file
 app.get("/", (req, res) => {
@@ -30,7 +18,16 @@ app.get("/", (req, res) => {
     res.sendFile(__dirname + "/public/index.html");
 });
 
+//TODO: Create HTML ROUTE: GET /notes should return the notes.html file.
+// Create a route for the notes.html file
+app.get('/notes', (req, res) => {
+  // Send the notes.html file as a response
+  res.sendFile(__dirname + '/public/notes.html');
+});
 
+
+// Start the server
+// app.listen(port, () => console.log(`Listening on port ${port}`));
 
 //TODO: Create API Route: GET /api/notes should read the db.json file and return all saved notes as JSON
 app.get('/api/notes', (req, res) => {
@@ -66,7 +63,14 @@ app.post('/api/notes', (req, res) => {
     });
 });
 // working on delete... 
-app.delete('/api/notes/:id')
+app.delete('/api/notes/:id', (req, res) => {
+  let notes = JSON.parse(fs.readFileSync('./db/db.json', 'utf-8'));
+  let newNotes = notes.filter(note => note.id !== req.params.id);
+  fs.writeFileSync('./db.json', JSON.stringify(newNotes));
+  res.send('Note deleted!');
+});
+
+// console.log(req.params.id);
 
 
 // Start the server
