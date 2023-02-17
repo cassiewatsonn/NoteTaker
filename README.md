@@ -17,11 +17,11 @@ This Note Taker is built with Express.js that lets the user create a note with t
 
 ## Installation 
 
-N/A
+There is no installation needed for this application. All you need to do is click this link: [NoteTaker](https://c-watson-notetaker.herokuapp.com/)
 
 ## Usage 
 
-Here is a video displaying how to application works: [NoteTaker Video](https://)
+Here is a video displaying how to application works: [NoteTaker Video](https://drive.google.com/file/d/12RthaMw-Kfap1A5HNqQNpQHamkGZWk1_/view)
 
 Once you have clicked on the link to the NoteTaker application, it will bring you to the NoteTaker homepage. Once you are here, click 'Get Started' to begin. 
 ## ![NoteTaker](./images/home.png)
