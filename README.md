@@ -4,7 +4,7 @@
 
 ## Description
 
-This Logo Maker is a command-line application built with Node.js that takes user input to generate a logo and save it on an SVG file. The user can select colours, shape and provide text for the logo. Once saved, a logo will be generated into an .svg file. As an aspiring web developer, I want to generate a simple logo for my projects so, I do not have to pay a graphic designer. 
+This Note Taker
 
 ## Table of Contents 
 
