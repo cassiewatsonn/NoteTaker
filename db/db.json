@@ -1,1 +1,27 @@
-[{"title":"Get Groceries","text":"Grocery List: \n- apples\n- eggs\n- bread \n- milk","id":"72bb25b5-86cd-4f19-b8b9-ee69fedc22cd"},{"title":"Dog Grooming Appointment","text":"Tuesday February 14th 2023 @ 3:00pm\n","id":"58e21ab0-4785-4c25-8899-66f3bcd0a284"},{"title":"Travel Bucket List ","text":"- Iceland \n- Australia \n- Las Vegas ","id":"5079e81c-5a3b-432e-8cec-e0f44ebc515f"}]
+[
+    {
+        "title": "Get Groceries",
+        "text": "Grocery List: \n- apples\n- eggs\n- bread \n- milk",
+        "id": "72bb25b5-86cd-4f19-b8b9-ee69fedc22cd"
+    },
+    {
+        "title": "Dog Grooming Appointment",
+        "text": "Tuesday February 14th 2023 @ 3:00pm\n",
+        "id": "58e21ab0-4785-4c25-8899-66f3bcd0a284"
+    },
+    {
+        "title": "Travel Bucket List ",
+        "text": "- Iceland \n- Australia \n- Las Vegas ",
+        "id": "5079e81c-5a3b-432e-8cec-e0f44ebc515f"
+    },
+    {
+        "title": "Hello",
+        "text": "Hello",
+        "id": "3091d82c-7d33-4350-81db-8dec5c188516"
+    },
+    {
+        "title": "Delete me",
+        "text": "bye bye ",
+        "id": "594ccc3d-c3af-4f43-86ae-caba76a0ab87"
+    }
+]
