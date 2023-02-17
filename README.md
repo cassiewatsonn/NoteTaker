@@ -4,7 +4,7 @@
 
 ## Description
 
-This Note Taker
+This Note Taker is built with Express.js that lets the user create a note with text. The user can create a new note, save notes, open previous notes and delete notes. As a University of Toronto Coding Bootcamp student, I want to be able to write, save and delete notes, so that I can organize my thoughts and keep track of tasks I need to complete. 
 
 ## Table of Contents 
 
@@ -17,15 +17,17 @@ This Note Taker
 
 ## Installation 
 
-To install this package, you will gather the files from the LogoMaker GitHub Respoitory by Cassandra Watson (https://github.com/cassiewatsonn/LogoMaker). Once you have all of the files, navigate to your terminal and input 'npm install'. This will install the inquirer and the jest package from the package.json file. 
+N/A
 
 ## Usage 
 
-Here is a video displaying how to application works: [LogoMaker Video](https://drive.google.com/file/d/1xTjGwhot4iHYPFp2ERaNm5t8GoMX2PFQ/view)
+Here is a video displaying how to application works: [NoteTaker Video](https://)
 
-After you have successfully installed the package (if you have not yet installed, please refer to [Installation](#installation)), use 'node index.js' to run the application in the terminal. When you are prompted for text then, you can enter up to three characters for your logo. When you are prompted for the text color then, you can enter a color keyword (OR a hexadecimal number). When you are prompted for a shape then, you are presented with a list of shapes to choose from: circle, triangle, and square. When you are prompted for the shape's color then, you can enter a color keyword (OR a hexadecimal number). When you have entered input for all the prompts then, an SVG file is created named `logo.svg` and the output text "Generated logo.svg" is printed in the command line. Select the 'logoSAMPLE' folder  to find  your 'logo.svg' file. When you open the `logo.svg` file in a browser then, you are shown a 300x200 pixel image that matches the criteria you entered. 
-
-## ![LogoMaker](./examples/usage.png)
+Once you have clicked on the link to the NoteTaker application, it will bring you to the NoteTaker homepage. Once you are here, click 'Get Started' to begin. 
+## ![NoteTaker](./images/home.png)
+Once you have clicked 'Get Started' you will be brought to the main NoteTaker page where you will add, save, select and delete your notes! This page presents you with existing notes listed in the left-hand column, plus empty fields to enter a new note title and the note’s text in the right-hand column. When I enter a new note title and the note’s text, then a Save icon appears in the navigation at the top of the page. When I click on the Save icon, then the new note I have entered is saved and appears in the left-hand column with the other existing notes. When I click on an existing note in the list in the left-hand column, then that note appears in the right-hand column. When I click on the Write icon in the navigation at the top of the page, then I am presented with empty fields to enter a new note title and the note’s text in the right-hand column. To delete a note, there is a red trash button to the right of your saved note that will delete your note! 
+## ![NoteTaker](./images/main.png)
+## ![NoteTaker](./images/main2.png)
 
 
 ## License Description
@@ -60,17 +62,11 @@ Please contact me if you would like to contribute. You can find my information u
 
 ## Tests 
 
-To test that the program is running successfully, input 'npm run test' in the terminal. This  will test the Shape, Triangle, Square and Circle classes. 
-
-The terminal will look like this if ran successfully: 
-
-## ![LogoMaker Tests](./examples/tests.png)
+N/A
 
 ## Credits 
 
-Thank you to my tutor Jehyun Jung and my study partner [Rebecca Lawrence!](https://github.com/rkml14)
-
-[GeeksforGeeks!](https://www.geeksforgeeks.org/)
+Thank you to my tutor Andres Jiminez and my study partner [Rebecca Lawrence!](https://github.com/rkml14)
 
 ## Questions 
 
